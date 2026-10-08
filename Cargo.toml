@@ -1,0 +1,17 @@
+[package]
+name = "gray-claude-import"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.91"
+license = "MIT"
+description = "Import Claude Code plugins (commands, agents, skills, MCP, hooks) into gray"
+
+[[bin]]
+name = "gray-claude-import"
+path = "src/main.rs"
+
+[dependencies]
+serde_json = "1"
+
+[profile.release]
+strip = true
