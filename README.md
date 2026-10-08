@@ -1,4 +1,14 @@
-# gray-claude-import
+<p align="center">
+  <img src="assets/gray-logo.svg" alt="gray" width="96">
+  <img src="assets/claude.svg" alt="claude" width="96">
+</p>
+<h1 align="center">gray-claude-import</h1>
+<p align="center">Import Claude Code plugins — commands, agents, skills, MCP, hooks — into gray.</p>
+<p align="center">
+  <a href="https://github.com/vstaln/gray-claude-import/blob/main/LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
+  <img alt="gray plugin" src="https://img.shields.io/badge/gray-plugin-7aa2f7.svg">
+  <img alt="rust" src="https://img.shields.io/badge/built%20with-rust-orange.svg">
+</p>
 
 Import Claude Code plugins (commands, agents, skills, MCP, hooks) into gray
 
@@ -69,3 +79,7 @@ gray account publish    # check → build → release → publish to the gray re
 
 Bump `version` in `Cargo.toml` before each `publish`; the registry refuses to
 republish a version.
+
+---
+Part of the [gray](https://github.com/vstaln/gray) plugin ecosystem —
+the open-source AI agent harness. <https://gray.alignment.id>
